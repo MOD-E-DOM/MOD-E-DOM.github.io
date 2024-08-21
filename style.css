@@ -1,0 +1,328 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: #ffffff; 
+    margin: 0;
+  }
+  header { 
+    background-color: transparent; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    margin-top: 30px;
+  
+  }
+  nav ul { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+  }
+  nav ul li { 
+    display: inline; 
+    margin-right: 10px;
+    padding-left: -50px;
+    padding-right: -50px;
+  }
+  nav a {
+    color: white;            
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .cover-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('Imagenes/HOME/PORTADA\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1; 
+  }
+  .cover-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    z-index: 2;
+  }
+  .description { 
+    padding: 20px; 
+    text-align: center; 
+    position: relative; 
+    z-index: 2;
+    color: #000000;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .conoceproyect {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    color: #123672;
+    font-size: 20px;
+  }  
+  .galeriainicio {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .galeriainicio figure {
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .galeriainicio-image {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+  }
+  
+  .galeriainicio button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: 3px solid #000000;
+  }
+  
+  .galeriainicio button:hover {
+    background-color: #000000;
+    color: white;
+  }
+  .galeriainicio h3 {
+      color: #123672;
+      margin-bottom: 20px;
+      font-weight: bold;
+  }
+  .fila {
+    display: flex;
+    background-color: #123672;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  .columna2 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      flex: 1; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+  }
+  .columna:last-child {
+    margin-right: 0;
+  }
+  button1 {
+    padding: 10px 50px;
+    background-color: white;
+    color: #123672;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    align-items: center;
+  }
+  button1:hover {
+    background-color: #123672;
+    color: white;
+    border: 3px solid #ffffff;
+  }
+  
+  .pie-de-pagina {
+    display: flex; /* Mantiene la fila de columnas */
+    flex-wrap: wrap; /* Permite envolver en dispositivos más pequeños */
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  
+  .columna-contacto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: left;
+    line-height: 120%;
+  }
+  
+  .columna-lista {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+    font-size: 18px;
+  }
+  
+  .columna-formulario {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+  }
+  .columna-contacto h3 {
+    margin-bottom: 10px;
+    width: 100%;
+    color: #787878;
+    font-size: 18px;
+  }
+  .columna-contacto p {
+    margin-top: 0px;
+    width: 95%;
+    margin-right: 5%;
+    color: #949494;
+    font-size: 13px;
+  }
+  
+  .submenu {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 0;
+    list-style-type: none;
+  }
+  .submenu li:last-child {
+    border-bottom: none;
+  }
+  
+  .submenu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #787878;
+    font-size: 18px;
+    margin: 0;
+    padding: 2%;
+  }
+  
+  .submenu a:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+  /* HASTA AQUI */
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  .column {
+    width: 30%;
+    padding: 10px;
+  }
+  
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  form h2 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button2 {
+    width: auto;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  button2:hover {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+    color: white;
+  }
+  
+  .columna-formulario h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 95%;
+    margin-right: 5%;
+    color: #123672;
+    font-size: 18px;
+    text-align: left;
+  }
+  .columna-formulario label {
+    margin-top: 0px;
+    width: 95%;
+    margin-right: 5%;
+    color: #949494;
+    font-size: 13px;
+    text-align: left;
+  }
+  .filaredes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  .columnaredes {
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .social-icon {
+    font-size: 8px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
